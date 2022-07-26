@@ -1,0 +1,15 @@
+{
+  "name": "javascript-vanilla-01",
+  "version": "1.0.0",
+  "description": "first project javascript vanilla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vanilla",
+    "javaScript"
+  ],
+  "author": "marco rossel",
+  "license": "MIT"
+}
