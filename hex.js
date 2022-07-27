@@ -7,4 +7,9 @@ const color = document.querySelector('.color');
 //and the # iths not alterable. 
 btn.addEventListener('click', function() {
     let hexColor = '#';
+    for (let i = 0; i < 6; i++) {
+        hexColor += hex[0];
+    }
+    color.textContent = hexColor;
+    document.body.style.backgroundColor = hexColor;
 })
