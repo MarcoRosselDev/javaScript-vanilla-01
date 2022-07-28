@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- styles -->
-    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
     <nav>
-        <div class="nav-center">
+        <div class="nav-center z-depth-3">
             <h4>color flipper</h4>
             <ul class="nav-links">
                 <li>
@@ -23,16 +25,17 @@
         </div>
     </nav>
 <main>
-    <div class="container">
+    <div class="container z-depth-4">
         <h2>background color : 
             <span class="color">
             #f1f5f8
             </span>
         </h2>
-        <button class="btn btn-hero" id="btn">click me</button>
+        <button class="btn btn-hero btn-floating btn-large pulse" id="btn">click</button>
     </div>
 </main>
         <!-- javascript -->
     <script src="/hex.js"></script>
+    <script type="text/javascript" src="/materialize/js/materialize.min.js"></script>
 </body>
 </html>
