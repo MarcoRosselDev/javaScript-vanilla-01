@@ -4,7 +4,7 @@ const color = document.querySelector('.color');
 
 //need something like this #f74920
 //six values random.
-//and the # iths not alterable. 
+//and the # iths not changeable. 
 btn.addEventListener('click', function() {
     let hexColor = '#';
     for (let i = 0; i < 6; i++) {
